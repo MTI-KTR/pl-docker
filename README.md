@@ -15,7 +15,7 @@ sudo docker login
 でログインして、
 
 ```
-sudo docker pull mojako/paintinglight'
+sudo docker pull mojako/paintinglight
 ```
 で僕が作ったイメージを持ってきてください。
 
