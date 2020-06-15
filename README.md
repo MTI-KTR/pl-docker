@@ -1,7 +1,7 @@
 # pl-docker
 
 ## PaintingLightをdockerで動かしたいときのメモ
-先輩のを
+
 
 ###  とりあえずクローン
 適当にディレクトリを作ってそこにクローンしてください。
@@ -17,9 +17,10 @@ sudo docker login
 ```
 sudo docker pull mojako/paintinglight'
 ```
-でイメージを持ってきてください。
+で僕が作ったイメージを持ってきてください。
 
-ここから先は先輩のhttps://github.com/yaegasikk/gui-docker　とほぼ一緒です。
+ここから先は先輩のhttps://github.com/yaegasikk/gui-docker　
+とほぼ一緒です。
 
 ```
 sudo docker run --gpus all  -v $(pwd):/user/local -d -p {$PORT}:22 mojako/paintinglight
@@ -43,7 +44,7 @@ cd /user/local/PaintingLight/code
 python3 example001.py
 ```
 
-でしばらく立って画像が出てマウスを動かして遊んでみてください。
+しばらく立って画像が出るので、マウスを動かして遊んでみてください。
 example001~045.pyまであります。
 
 
